@@ -5,13 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export -o docs",
-    "start": "next start"
-  },
-  "lint-staged": {},
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm build"
-    }
+    "start": "next start",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "10.0.9",
